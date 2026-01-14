@@ -185,7 +185,6 @@ ul, ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
   text-align: center;
 }
 .portfolio-content {
@@ -208,7 +207,6 @@ ul, ol {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -251,14 +249,16 @@ ul, ol {
   max-width: 264px;
   letter-spacing: 0.02em;
 }
-.portfolio-list {
-  column-gap: 24px;
-  row-gap: 48px;
-}
 .features-list, .team-list, .portfolio-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  }
+
+.portfolio-list {
+  row-gap: 48px;
+  column-gap: 24px;
+  
 }
 .feature-item, .team-member {
   width: calc((100% - 72px) / 4);
